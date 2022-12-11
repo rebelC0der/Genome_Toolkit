@@ -2,8 +2,8 @@ from genome_toolkit import genomeToolkit
 
 gt = genomeToolkit()
 
-seq = "AAAGAAAATTGA"
-kmer = "AA"
+seq = "AATTAAAC"
+kmer = "AAA"
 
 print(f'Sequence: {seq}')
 print(f'k-mer: {kmer}')
