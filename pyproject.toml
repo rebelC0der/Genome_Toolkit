@@ -1,0 +1,14 @@
+[project]
+name = "genome-toolkit"
+version = "0.1.0"
+description = "A small, typed bioinformatics toolkit for validated sequences and structured analyses."
+readme = "README.md"
+authors = [
+    { name = "rebelcoder", email = "info@rebelscience.club" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
