@@ -1,6 +1,6 @@
 """Sequence loaders and neutral records."""
 
-from . import text
+from . import fasta, text
 from .records import SequenceRecord
 
-__all__ = ["SequenceRecord", "text"]
+__all__ = ["SequenceRecord", "fasta", "text"]
