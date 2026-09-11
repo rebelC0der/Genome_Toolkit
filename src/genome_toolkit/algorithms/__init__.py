@@ -1,5 +1,15 @@
 """Bioinformatics algorithms."""
 
-from .kmer import count_kmer, find_most_frequent_kmers
+from .kmer import (
+    FrequentKmersResult,
+    KmerCountResult,
+    count_kmer,
+    find_most_frequent_kmers,
+)
 
-__all__ = ["count_kmer", "find_most_frequent_kmers"]
+__all__ = [
+    "FrequentKmersResult",
+    "KmerCountResult",
+    "count_kmer",
+    "find_most_frequent_kmers",
+]
